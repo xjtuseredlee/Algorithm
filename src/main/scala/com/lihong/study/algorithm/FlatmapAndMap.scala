@@ -5,6 +5,7 @@ package com.lihong.study.algorithm
   * 不过有个要求，传入的函数在处理完后返回值必须是List(或Seq)，如果结果不是List(Seq)，那么将出错。
   * 也就是说，传入的函数是有要求的 —— 返回值是Seq才行。这样，每个元素处理后返回一个List，
   * 我们得到一个包含List元素的List，flatMap自动将所有的内部list的元素取出来构成一个List返回。
+  *
   */
 class FlatmapAndMap {
 
